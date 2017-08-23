@@ -10,13 +10,21 @@ import {Router} from '@angular/router';
   styleUrls: ['./landing.component.css']
 })
 export class LandingComponent implements OnInit {
+  articles: any []=[];
 
   constructor(
     private _userService:UserService,
     private _proofService:ProofService,
+    private _articleService:ArticleService
   ) { }
 
   ngOnInit() {
   }
+getArticles(){
+  return this._articleService.getArticles()
+  .then(articles => this.articles = articles)
+  .catch(err => console.log(err));
+}
+
 
 }

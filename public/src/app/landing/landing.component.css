@@ -3,5 +3,15 @@
   width: 200px;
 }
 nav.nav-extended{
-  height: 123px;
+  height: 62px;
+}
+.botbody{
+  height: 780px;
+  background-size: cover;
+}
+.title h1{
+  color: white;
+}
+.sqs h1{
+  color: white;
 }

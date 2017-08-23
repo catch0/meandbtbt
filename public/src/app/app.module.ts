@@ -33,6 +33,7 @@ import { BotComponent } from './bot/bot.component';
   providers: [
     UserService,
     ArticleService,
+    ProofService,
   ],
   bootstrap: [AppComponent]
 

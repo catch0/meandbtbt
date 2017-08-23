@@ -16,6 +16,6 @@ let ArticleSchema = new mongoose.Schema({
   score:{
     type: Number,
   }
-{timestamps:true})
+},{timestamps:true})
 
 mongoose.model('Proof', ProofSchema);
