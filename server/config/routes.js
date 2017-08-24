@@ -1,9 +1,11 @@
 let path = require('path');
-let Questions = require ('../controllers/proofs');
 let Articles = require('../controllers/articles');
+let Users = require('../controllers/users');
 
 
 module.exports = function(app){
+
+    app.post('/users', Users.create);
     app.get('/articles', Articles.index);
     // app.post('/article', Article.create);
     //

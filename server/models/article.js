@@ -18,4 +18,4 @@ let ArticleSchema = new mongoose.Schema({
   }
 },{timestamps:true})
 
-mongoose.model('Proof', ProofSchema);
+mongoose.model('Article', ArticleSchema);

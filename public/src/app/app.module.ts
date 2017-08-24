@@ -15,6 +15,7 @@ import {ArticleService} from './article.service';
 import {ProofService} from './proof.service';
 import { NavComponent } from './nav/nav.component';
 import { BotComponent } from './bot/bot.component';
+import { NotifyComponent } from './notify/notify.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { BotComponent } from './bot/bot.component';
     AppComponent,
     LandingComponent,
     NavComponent,
-    BotComponent
+    BotComponent,
+    NotifyComponent
   ],
   imports: [
     BrowserModule,

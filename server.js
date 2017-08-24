@@ -20,5 +20,5 @@ require('./server/config/mongoose');
 require('./server/config/routes')(app);
 
 app.listen(4000, function(){
-  console.log('listening on port 8000...')
+  console.log('listening on port 4000...')
 })
