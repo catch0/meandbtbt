@@ -3,7 +3,7 @@ let fs = require('fs');
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb://localhost/debate', { useMongoClient: true })
+mongoose.connect('mongodb://localhost/debatebot', { useMongoClient: true })
 
 let models_path = __dirname + '/../models';
 

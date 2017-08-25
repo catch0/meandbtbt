@@ -4,21 +4,40 @@
         <div class="row">
           <div class = "col s4">
             <label> First Name</label>
-            <input type="text" name="firstName" class="form-control" [(ngModel)]="newUser.firstName">
+            <input type="text" name="firstName" required class="form-control" [(ngModel)]="newUser.firstName" minlength="2" #firstName="ngModel">
+            <div *ngIf="!firstName.valid">
+              <p class = "errors">
+                Please enter first Name
+              </p>
+            </div>
           </div>
           <div class="col s4">
             <label>Last Name</label>
-            <input type="text" name="lastName" class="form-control" [(ngModel)]="newUser.lastName">
+            <input type="text" name="lastName" class="form-control" [(ngModel)]="newUser.lastName" required minlength="2" #lastName="ngModel">
+            <div *ngIf="!lastName.valid">
+              <p class = "errors">
+                Please enter last Name
+              </p>
+            </div>
           </div>
           <div class = "col s4">
             <label> email </label>
-            <input type="text" name="email" class="form-control" [(ngModel)]="newUser.email">
+            <input type="text" name="email" class="form-control" [(ngModel)]="newUser.email" required #email="ngModel">
+            <div *ngIf="!email.valid">
+              <p class = "errors">
+                Please enter email address
+              </p>
+            </div>
           </div>
+
           <input type = "submit" value = "submit" />
+          <div *ngIf="myForm.valid">
+            <input type = "submit" value= "submithissuccka" />
+          </div>
         </div>
       </form>
       <div class="card-action">
-             <p *ngFor="let error of loginErrors">{{ error }}</p>
+             <p *ngFor="let error of loginErrors" class = "errors">{{ error }}</p>
            </div>
     </div>
   </div>

@@ -22,3 +22,13 @@ nav.nav-extended{
 .sqs h1{
   color: white;
 }
+
+.errors{
+  color: red;
+}
+.ng-invalid { }
+.ng-valid { }
+.ng-untouched { }
+.ng-touched { }
+.ng-dirty { }
+.ng-pristine { }
