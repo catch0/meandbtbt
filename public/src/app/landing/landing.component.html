@@ -8,14 +8,16 @@
 </head>
 <body>
 <div class = "botbody" style = "background-image:url('../../assets/Politics.jpeg')">
-  <div class="sqs-slice">
-        <div class="sqs" data-slice-type="heading" data-slice-id="599b909e9f8dce44741f3443" id="yui_3_17_2_1_1503517618048_312"><h1 id="sqs-slash-page-header" style="display: inline-block; font-size: 108px;">Incredibly Smart A.I.</h1>
-  </div>
-        <div class="sqs-slice yui3-widget sqs-slice-body sqs-slice-body-content" data-slice-type="body" data-slice-id="599b909e9f8dce44741f3444" id="yui_3_17_2_1_1503517618048_334"><p><strong>Life is too short for bad news</strong></p><p>Sign up for the smartest way to get real researched answers</p></div>
-        <div class="responsive-wrapper actions" style="display: inline-block;">
-<div class="sqs-slice" data-slice-type="buttons" data-compound-type="action" data-slice-id="599b914df7e0ab10b6f98d3c" data-content-empty="true"></div>
-        </div>
+
+    <div class="sqs"><h1>Incredibly Smart A.I.</h1>
+    </div>
+    <div class = "row" id = "articlebox">
+      <div *ngFor="let article of articles">
+        <p>
+          {{article.title}}
+        </p>
       </div>
     </div>
+</div>
 </body>
 </html>

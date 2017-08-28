@@ -8,7 +8,7 @@ export class ArticleService {
   constructor(private _http:Http) { }
 
 getArticles(){
-  console.log('is articles working');
+  console.log('hitting the article service');
   return this._http.get('/articles').map(data => data.json()).toPromise()
 }
 

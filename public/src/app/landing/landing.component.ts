@@ -15,7 +15,8 @@ export class LandingComponent implements OnInit {
   constructor(
     private _userService:UserService,
     private _proofService:ProofService,
-    private _articleService:ArticleService
+    private _articleService:ArticleService,
+    private router: Router
   ) { }
 
   ngOnInit() {

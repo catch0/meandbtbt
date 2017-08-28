@@ -8,14 +8,16 @@ import {RouterModule} from '@angular/router';
 //components
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
+import { NavComponent } from './nav/nav.component';
+import { BotComponent } from './bot/bot.component';
+import { NotifyComponent } from './notify/notify.component';
 
 //Services
 import {UserService} from './user.service';
 import {ArticleService} from './article.service';
 import {ProofService} from './proof.service';
-import { NavComponent } from './nav/nav.component';
-import { BotComponent } from './bot/bot.component';
-import { NotifyComponent } from './notify/notify.component';
+import {ApiService} from './api.service';
+
 
 
 @NgModule({
