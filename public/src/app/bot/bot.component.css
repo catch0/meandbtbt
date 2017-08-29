@@ -14,11 +14,12 @@ nav.nav-extended{
 }
 .botbody{
   height: 780px;
-  background-size: cover;
+  margin-top: -33px;
 }
 .title h1{
   color: white;
 }
 .sqs h1{
   color: white;
+  margin-top: 0px;
 }

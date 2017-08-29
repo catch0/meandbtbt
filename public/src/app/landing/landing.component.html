@@ -7,16 +7,16 @@
   <link rel="stylesheet" type="text/css" title="Cool stylesheet" href="style.css">
 </head>
 <body>
-<div class = "botbody" style = "background-image:url('../../assets/Politics.jpeg')">
-
-    <div class="sqs"><h1>Incredibly Smart A.I.</h1>
+<div class = "botbody" style = "background-image:url('../../assets/Politics.jpeg')" height=780px>
+    <div class="sqs">
+      <h1>Incredibly Smart A.I</h1>
     </div>
     <div class = "row" id = "articlebox">
-      <div *ngFor="let article of articles">
-        <p>
+
+        <p *ngFor="let article of articles">
           {{article.title}}
         </p>
-      </div>
+
     </div>
 </div>
 </body>

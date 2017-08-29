@@ -3,13 +3,17 @@
   width: 200px;
 }
 nav.nav-extended{
+  height: 123px;
+}
+.nav-wrapper img{
+  height: 75%;
+  width: 200px;
+}
+nav.nav-extended{
   height: 62px;
-  margin-bottom: 0px;
 }
 .botbody{
   height: 780px;
-  background-size: cover;
-  margin-top: 0px;
 }
 .title h1{
   color: white;
@@ -22,4 +26,7 @@ nav.nav-extended{
 }
 .articles {
   background-color: green;
+}
+#articlebox{
+  background-color: grey;
 }

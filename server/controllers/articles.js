@@ -3,7 +3,7 @@ let mongoose = require('mongoose');
 
 class ArticlesController {
     index(req,res){
-      Article.find({})
+      Articles.find({})
         if(err){
           return res.json(err);
           console.log("articles controller error")
