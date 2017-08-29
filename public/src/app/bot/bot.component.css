@@ -1,25 +1,27 @@
-.nav-wrapper img{
-  height: 75%;
-  width: 200px;
-}
-nav.nav-extended{
-  height: 123px;
-}
-.nav-wrapper img{
-  height: 75%;
-  width: 200px;
-}
-nav.nav-extended{
-  height: 62px;
-}
 .botbody{
   height: 780px;
-  margin-top: -33px;
 }
 .title h1{
   color: white;
 }
+.sqs{
+  margin-top: -37px;
+}
 .sqs h1{
   color: white;
-  margin-top: 0px;
+  padding: 70px 0;
+  border: 3px solid white;
+  text-align: center;
+}
+.articles {
+  background-color: green;
+}
+#articlebox{
+  background-color: grey;
+}
+#bot{
+  background-color: grey;
+}
+.form{
+  background-color: grey;
 }

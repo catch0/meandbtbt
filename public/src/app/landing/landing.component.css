@@ -1,22 +1,11 @@
-.nav-wrapper img{
-  height: 75%;
-  width: 200px;
-}
-nav.nav-extended{
-  height: 123px;
-}
-.nav-wrapper img{
-  height: 75%;
-  width: 200px;
-}
-nav.nav-extended{
-  height: 62px;
-}
 .botbody{
   height: 780px;
 }
 .title h1{
   color: white;
+}
+.sqs{
+  margin-top: -37px;
 }
 .sqs h1{
   color: white;

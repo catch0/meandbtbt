@@ -10,10 +10,7 @@ class ArticlesController {
         }
         console.log("articles controller working")
         return res.json(article);
-
     }
-
-
 }
 
 module.exports = new ArticlesController();
