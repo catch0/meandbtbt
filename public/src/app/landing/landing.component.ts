@@ -22,6 +22,7 @@ export class LandingComponent implements OnInit {
   ngOnInit() {
     this.getArticles();
   }
+  
 getArticles(){
   return this._articleService.getArticles()
   .then(articles => this.articles = articles)
