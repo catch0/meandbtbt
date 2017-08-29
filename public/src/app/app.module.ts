@@ -38,6 +38,7 @@ import {ApiService} from './api.service';
     UserService,
     ArticleService,
     ProofService,
+    ApiService
   ],
   bootstrap: [AppComponent]
 
