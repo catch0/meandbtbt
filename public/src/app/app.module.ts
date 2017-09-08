@@ -26,7 +26,7 @@ import {ApiService} from './api.service';
     LandingComponent,
     NavComponent,
     BotComponent,
-    NotifyComponent
+    NotifyComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,15 +1,18 @@
 import { Injectable } from '@angular/core';
 import {Http} from '@angular/http';
-import 'rxjs';
+import 'rxjs/add/operator/map';
 
 
 @Injectable()
 export class ApiService {
+constructor(private _http:Http) {}
 
-  constructor(private _http:Http) { }
-  getArticles(search){
-    console.log('getting article')
-      return this._http.get(`http://debatebot-api.herokuapp.com/api/${search}`).map(data=>data.json()).toPromise()
+  // getCurrentTime(){
+  //   return this._http.get('http://date.jsontest.com')
+  //   .map(res => res.json())
+  // }
+  getData(input){
+    return this._http.get('http://debatebot-api.herokuapp.com/api/${input}')
+    .map(res=> res.json())
   }
-
 }

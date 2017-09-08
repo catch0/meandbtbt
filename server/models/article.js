@@ -9,9 +9,6 @@ let ArticleSchema = new mongoose.Schema({
   url:{
     type: String,
   },
-  trendingWord:{
-    type: String,
-  },
   score:{
     type: Number,
   }
